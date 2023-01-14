@@ -4,7 +4,7 @@
 
 [![Latest Stable Version](https://img.shields.io/github/tag/Lyhtande/Board3-Portal-Server-Status-Module.svg?style=flat-square&label=stable)](https://github.com/Lyhtande/Board3-Portal-Server-Status-Module/releases)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Lyhtande/Board3-Portal-Server-Status-Module?style=flat-square)
-[![License](https://img.shields.io/github/license/Lyhtande/Board3-Portal-Server-Status-Module.svg?style=flat-square)](https://raw.githubusercontent.com/Lyhtande/Board3-Portal-Server-Status-Module/master/LICENSE)
+[![License](https://img.shields.io/github/license/Lyhtande/Board3-Portal-Server-Status-Module?style=flat-square)](https://raw.githubusercontent.com/Lyhtande/Board3-Portal-Server-Status-Module/master/LICENSE)
 
 Copy the extension to phpBB/ext/neverlands/b3pserverstatus
 
