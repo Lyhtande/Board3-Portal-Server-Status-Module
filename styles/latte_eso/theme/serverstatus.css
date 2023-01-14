@@ -1,0 +1,59 @@
+#eso-serverstatus { margin-top: 7px; }
+
+.nav_statistic_list {
+display: block;
+	width: 17.1rem;
+	margin: 0;
+	padding: 0;
+}
+.nav_statistic_list li {
+	display: block;
+	float: left;
+	width: 15rem;
+	padding: .2rem 0;
+	list-style: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.nav_statistic_list li:nth-child(odd) {
+	width: 1.6rem;
+	margin-right: -6px;
+	text-align: left;
+}
+
+.nav_statistic_list li:last-of-type {
+	margin-bottom: 3px;
+}
+
+.fa-circle::before { font-size: 13px; }
+
+.ig_grey { color: #bababb !important; }
+
+.ig_white { color: #f2f2f3 !important; }
+
+.ig_green { color: #3ec826 !important; }
+
+.ig_blue { color: #4a99fe !important; }
+
+.ig_violet { color: #aa40f3 !important; }
+
+.ig_gold { color: #e3c440 !important; }
+
+.ig_orange { color :#ff8200 !important; }
+
+.fa-circle.red { color:#ff3019 !important; }
+
+.fa-circle.green { color:#46b342 !important; }
+
+.fa-circle.blue { color:#87cefa !important; }
+
+.fa-circle.pink { color:#ff69b4 !important; }
+
+.fa-circle.grey { color:#919191 !important; }
+
+.fa-circle.gold { color:#e3c440 !important; }
+
+.fa-circle.silver { color:#d4d4d4 !important; }
+
+.fa-circle.bronze { color:#cd7f32 !important; }

@@ -1,0 +1,15 @@
+services:
+    neverlands.b3pserverstatus.listener:
+        class: neverlands\b3pserverstatus\event\main_listener
+        arguments:
+            - '@language'
+        tags:
+            - { name: event.listener }
+
+    neverlands.b3pserverstatus.serverstatus:
+        class: neverlands\b3pserverstatus\serverstatus
+        arguments:
+            - '@config'
+            - '@template'
+        tags:
+            - { name: board3.portal.module }

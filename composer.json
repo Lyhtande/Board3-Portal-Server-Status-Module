@@ -1,0 +1,26 @@
+{
+    "name": "neverlands/b3pserverstatus",
+    "type": "phpbb-extension",
+    "description": "Adds a server status module for Board3 Portal",
+    "version": "1.0.0",
+    "time": "2021-07-10",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Neverlands",
+            "email": "admin@circula-orionis.net",
+            "homepage": "https://online-werkstatt.at",
+            "role": "Lead Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Board3 Portal Server Status Module",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.0,<4.0.0@dev"
+        }
+    }
+}

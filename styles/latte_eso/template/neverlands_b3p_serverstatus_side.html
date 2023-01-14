@@ -1,0 +1,24 @@
+{$LR_BLOCK_H_L}<!-- IF $S_BLOCK_ICON --><img src="{$IMAGE_SRC}" width="{$IMAGE_WIDTH}" height="{$IMAGE_HEIGHT}" alt="" />&nbsp;<!-- ENDIF -->{L_NEVERLANDS_B3P_SERVER_STATUS_ESO}{$LR_BLOCK_H_R}
+
+<script>
+	window.onload = function() {
+	   if (window.jQuery) {
+		   // jQuery is loaded
+			window.onload = function(){
+				setInterval(function(){
+					$("#eso-serverstatus-reload").load(window.location.href + "#eso-serverstatus" );
+				}, 30000);
+			};
+	   } else {
+		location.reload();
+	   }
+	}
+</script>
+
+<div id="eso-serverstatus-reload">
+	<!-- PHP -->
+	global $phpbb_root_path; 
+	include($phpbb_root_path . 'eso-server-status.php');
+	<!-- ENDPHP -->
+</div>
+{$LR_BLOCK_F_L}{$LR_BLOCK_F_R}
