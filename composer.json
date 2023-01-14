@@ -2,6 +2,7 @@
     "name": "neverlands/b3pserverstatus",
     "type": "phpbb-extension",
     "description": "Adds a server status module for Board3 Portal",
+    "homepage": "https://github.com/Lyhtande/Board3-Portal-Server-Status-Module",
     "version": "1.0.0",
     "time": "2021-07-10",
     "license": "GPL-2.0-only",
